@@ -1,0 +1,81 @@
+
+<div class="slideshow_cards">
+
+{% for block in section.blocks %}
+      <div class="slideshow_card">
+        <div class="quote-logo">
+          
+          {% render "icon-quotes" %}
+        </div>
+
+        <div class="slideshow_card-content">
+          <p> {{block.settings.quote}}</p>
+          <img
+            class="person"
+            src="{{block.settings.image | img_url}}"
+          />
+
+          <p>{{block.settings.author}}</p>
+        </div>
+      </div>
+{% endfor %}
+</div>
+        
+
+{% schema %}
+    { 
+        "name": "Testimonial Slider", 
+        "settings": [ 
+            {
+                "type": "text",
+                "label": "Heading (optional)", 
+                "id": "heading"
+            }
+        ], 
+        "blocks": [
+            {
+                "type": "testimonial", 
+                "name": "Testimonial",
+                "settings": [
+                    {
+                        "type": "text", 
+                        "label": "Customer Quote",
+                        "id": "quote" 
+                    },
+                    {
+                            "type": "image_picker",
+                            "label": "Customer Profile Image",
+                            "id": "image"
+                    }, 
+                    {
+                        "type": "text", 
+                        "label": "Author's Name", 
+                        "id": "author"
+                    }
+
+                ]
+            }
+        ], 
+        "presets": [
+            {
+                "name": "Testimonial",
+                "blocks": [
+                    {
+                        "type": "testimonial"
+                    },
+                    {
+                        "type": "testimonial"
+                    },
+                    {
+                        "type": "testimonial"
+                    }
+                ]
+            }
+        ]
+
+    }
+
+
+
+{% endschema %}
+
