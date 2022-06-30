@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "aefc74fe-20ae-44ad-a39a-0e06bb1d56f9": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "Testing"
+          }
+        },
+        "196ee861-78d4-45ba-95cd-69189ff363c3": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "Test"
+          }
+        },
+        "51cd414d-9c39-4cdb-84e1-a2daeba23939": {
+          "type": "product_price_block",
+          "settings": {
+            "product_price_text": "$5"
+          }
+        }
+      },
+      "block_order": [
+        "aefc74fe-20ae-44ad-a39a-0e06bb1d56f9",
+        "196ee861-78d4-45ba-95cd-69189ff363c3",
+        "51cd414d-9c39-4cdb-84e1-a2daeba23939"
+      ],
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "16565443974fe156c4": {
+      "type": "image-with-text",
+      "blocks": {
+        "16565443976940c6cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test"
+          }
+        },
+        "16565443976940c6cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "9e56da06-965b-4028-bbd5-e7bf55ee377e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16565443976940c6cb-0",
+        "16565443976940c6cb-1",
+        "9e56da06-965b-4028-bbd5-e7bf55ee377e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "16565443974fe156c4"
+  ]
+}
