@@ -48,6 +48,15 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "9d2f3b33-ef76-4bc0-93d0-dfa277ba7280": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "content": "<p>{{ product.metafields.custom.shipping.value }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -59,7 +68,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "9d2f3b33-ef76-4bc0-93d0-dfa277ba7280"
       ],
       "settings": {
         "enable_sticky_info": true,
