@@ -55,7 +55,16 @@
             "heading": "Shipping",
             "content": "<p>{{ product.metafields.custom.shipping.value }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "truck"
+          }
+        },
+        "c0def080-2bd0-4170-824e-082d32aedf27": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Coffee Info",
+            "content": "",
+            "page": "",
+            "icon": "leaf"
           }
         }
       },
@@ -69,7 +78,8 @@
         "buy_buttons",
         "description",
         "share",
-        "9d2f3b33-ef76-4bc0-93d0-dfa277ba7280"
+        "9d2f3b33-ef76-4bc0-93d0-dfa277ba7280",
+        "c0def080-2bd0-4170-824e-082d32aedf27"
       ],
       "settings": {
         "enable_sticky_info": true,
