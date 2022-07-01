@@ -2153,3 +2153,21 @@ details-disclosure > details {
 .person {
   border-radius: 50%;
 }
+
+/* * Product Page > Coffee Info Tab */
+.coffee-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coffee-indicator {
+  display: flex;
+}
+
+.coffee-indicator > svg {
+  max-width: 25px;
+  max-height: 25px;
+  margin: 10px 0;
+}
