@@ -53,19 +53,14 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
-            "content": "<p>{{ product.metafields.custom.shipping.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.shipping.value }}<\/p>",
             "page": "",
             "icon": "truck"
           }
         },
-        "c0def080-2bd0-4170-824e-082d32aedf27": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Coffee Info",
-            "content": "",
-            "page": "",
-            "icon": "leaf"
-          }
+        "94d9bc3d-8dab-463b-b7ab-5f93017e8bbd": {
+          "type": "coffee_info",
+          "settings": {}
         }
       },
       "block_order": [
@@ -79,7 +74,7 @@
         "description",
         "share",
         "9d2f3b33-ef76-4bc0-93d0-dfa277ba7280",
-        "c0def080-2bd0-4170-824e-082d32aedf27"
+        "94d9bc3d-8dab-463b-b7ab-5f93017e8bbd"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -92,25 +87,25 @@
         "1656614942935db8ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/farmer.png",
+            "image": "shopify:\/\/shop_images\/farmer.png",
             "title": "Direct Relations to Farmers",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "1656614942935db8ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/coffee-plant.png",
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
             "title": "Plant a Tree for 3rd Order",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "1656614942935db8ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/roaster.png",
+            "image": "shopify:\/\/shop_images\/roaster.png",
             "title": "Roasted by Hand in FL",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
@@ -137,7 +132,7 @@
           "type": "testimonial",
           "settings": {
             "quote": "Good stuff",
-            "image": "shopify://shop_images/farmer.png",
+            "image": "shopify:\/\/shop_images\/farmer.png",
             "author": "Author"
           }
         },
@@ -145,7 +140,7 @@
           "type": "testimonial",
           "settings": {
             "quote": "This stuff is good",
-            "image": "shopify://shop_images/roaster.png",
+            "image": "shopify:\/\/shop_images\/roaster.png",
             "author": "author name"
           }
         },
@@ -153,7 +148,7 @@
           "type": "testimonial",
           "settings": {
             "quote": "5 stars",
-            "image": "shopify://shop_images/coffee-plant.png",
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
             "author": "author"
           }
         }
@@ -168,5 +163,9 @@
       }
     }
   },
-  "order": ["main", "1656614942790e4e4a", "1656623790d6ed8b37"]
+  "order": [
+    "main",
+    "1656614942790e4e4a",
+    "1656623790d6ed8b37"
+  ]
 }
